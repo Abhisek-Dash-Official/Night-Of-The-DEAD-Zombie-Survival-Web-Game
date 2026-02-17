@@ -97,13 +97,13 @@ export default function Home() {
       // VOLUME CONTROL
       sounds.current.wind.volume = 0.04;
       sounds.current.night.volume = 0.04;
-      sounds.current.zombies.volume = 0.04;
+      sounds.current.zombies.volume = 0.125;
 
       sounds.current.gun.volume = 0.05;
       sounds.current.reload.volume = 0.05;
       sounds.current.bite.volume = 0.05;
 
-      sounds.current.gameOver.volume = 0.075;
+      sounds.current.gameOver.volume = 0.35;
     }
   }, []);
 
